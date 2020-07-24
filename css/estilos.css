@@ -74,7 +74,10 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+<<<<<<< HEAD
   flex-wrap: wrap;
+=======
+>>>>>>> cb86160009269a4cc3dd305e740cdeff4521744d
 }
 
 .hero-image {
@@ -105,7 +108,10 @@ h2 {
   display: flex;
   align-items:center;
   justify-content: space-between;
+<<<<<<< HEAD
   flex-wrap: wrap;
+=======
+>>>>>>> cb86160009269a4cc3dd305e740cdeff4521744d
 }
 .project-course {
   margin: 10px 0;
@@ -132,6 +138,7 @@ h2 {
 }
 
 .project-details {
+<<<<<<< HEAD
   width: 50%;
 }
 
@@ -141,6 +148,13 @@ h2 {
 
 .project-imageContainer img {
   max-width: 100%;
+=======
+  width: 500px;
+}
+
+.project-imageContainer{
+  width: 500px;
+>>>>>>> cb86160009269a4cc3dd305e740cdeff4521744d
 }
 
 .header {
@@ -150,7 +164,10 @@ h2 {
   justify-content: space-between;
   align-items: center;
   height: 70px;
+<<<<<<< HEAD
   flex-wrap: wrap;
+=======
+>>>>>>> cb86160009269a4cc3dd305e740cdeff4521744d
 }
 
 .header a {
@@ -200,7 +217,10 @@ figure {
   display: flex;
   align-items: center;
   justify-content: space-between;
+<<<<<<< HEAD
   flex-wrap: wrap;
+=======
+>>>>>>> cb86160009269a4cc3dd305e740cdeff4521744d
 }
 
 .footer img {
@@ -267,7 +287,10 @@ figure {
   display: flex;
   align-items: center;
   justify-content: space-between;
+<<<<<<< HEAD
   flex-wrap: wrap;
+=======
+>>>>>>> cb86160009269a4cc3dd305e740cdeff4521744d
 }
 
 .social {
@@ -334,15 +357,20 @@ figure {
 }
 
 .container {
+<<<<<<< HEAD
   max-width: 1000px;
   /* width: 100%; */
   flex: 1;
+=======
+  width: 1000px;
+>>>>>>> cb86160009269a4cc3dd305e740cdeff4521744d
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit;
+<<<<<<< HEAD
 }
 
 /* desktop first que empieces desde el MQ más grande */
@@ -424,3 +452,6 @@ figure {
   
 }
 
+=======
+}
+>>>>>>> cb86160009269a4cc3dd305e740cdeff4521744d
