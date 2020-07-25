@@ -132,6 +132,15 @@ h2 {
 }
 
 .project-details {
+<<<<<<< HEAD
+  width: 50%;
+}
+
+.project-imageContainer{
+  width: 50%;
+}
+
+.project-imageContainer img {
   width: 50%;
 }
 
@@ -423,4 +432,5 @@ figure {
 @media screen and (max-width:320px) {
   
 }
+
 
