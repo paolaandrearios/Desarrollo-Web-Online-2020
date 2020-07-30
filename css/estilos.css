@@ -301,10 +301,6 @@ figure {
   flex-wrap: wrap;
 }
 
-.social {
-
-}
-
 .social-link {
   display: inline-block;
   width: 50px;
@@ -398,7 +394,16 @@ figure {
 
 /* desktop first que empieces desde el MQ más grande */
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
+  .event-list-title {
+    margin-left: 0;
+  } 
+
+
+  .portfolio {
+      padding:0;
+   }
+
    .container {
     padding: 0 1em;
   }
@@ -424,11 +429,14 @@ figure {
     font-size: 2em;
     z-index: 2;
   }
-
-
 }
 
 @media screen and (max-width:767px) {
+
+  h2{
+    font-size: 1.2em;
+    margin: .5em;
+  }
 
   .burger-button {
     display: block;
@@ -517,7 +525,7 @@ figure {
 }
 
 .project-description {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .event {
@@ -540,7 +548,7 @@ figure {
   }
 
   .project-details {
-    font-size: 12px ;
+    font-size: 14px ;
   }
   
   .event-detail {
@@ -570,6 +578,9 @@ figure {
     border: 1px solid transparent;
   }
 
+  .social-link {
+    margin: 0;
+  }
 
 }
 
@@ -584,9 +595,6 @@ figure {
     padding: 2em 1em;
   }
 
-  .social-link {
-    margin: 0 3px;
-  }
 }
 
 
